@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "8136e8f0-190d-4e5f-99c6-0fbf456f60f0",
+    "appType": "app",
+    "appDisplayName": "MovE",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#3f51b5",
+    "requestedPermissions": [
+      "access_location",
+      "run_background",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "MovE"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

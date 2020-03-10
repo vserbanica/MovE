@@ -1,0 +1,5 @@
+<svg>
+  <use id="mybutton" href="#square-button" y="5" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Click Me!" />
+  </use>
+</svg>
