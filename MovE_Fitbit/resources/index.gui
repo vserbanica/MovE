@@ -1,0 +1,11 @@
+<svg>
+  <use id="mixedtext" href="#mixed-text-center-mid" height="100%" width="100%"  fill="fb-yellow">
+    <set href="#header/text" attributeName="text-buffer" to="Header Text"/>
+    <set href="#copy/text" attributeName="text-buffer"
+         to="This is the center and middle-aligned body text."/>
+  </use>
+  <use id="mybutton" href="#combo-button-lower-right" fill="fb-peach">
+    <set href="#text" attributeName="text-buffer" to="!"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+</svg>

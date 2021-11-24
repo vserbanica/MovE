@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_below="@id/camera_preview"/>
+
+    <Button
+        android:id="@+id/button_capture"
+        android:text="Start activity"
+        android:layout_width="182dp"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="left" />
+
+    <Button
+        android:id="@+id/button_capture2"
+        android:text="Stop activity"
+        android:layout_width="182dp"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right" />
+
+</RelativeLayout>
