@@ -7,9 +7,9 @@ The information is received in 2 ways:
  - different haptic feedback paaterns trough the watch
  - audio feedback using vocal messages from the phone
 
-Android app - takes pictures once every second, sends them to an TenserFlow machine learning model for processing, the recognised objects are then filtered and send to the TextToSpeech service and a local WebSocket Server
+Android app - takes pictures once every second, sends them to an TenserFlow machine learning model for processing, the recognised objects are then filtered and send to the TextToSpeech service and a local Java WebSocket Server
 
-Watch app - reads the Json data from the Server, parses the data and gives haptic output
+Watch app - uses JavaScript to read the Json data from the Server, parses the data and activates the haptic engine of the watch 
 
 # Prereqs
 
